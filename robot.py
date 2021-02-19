@@ -39,8 +39,8 @@ class Solution:
     def distance(self):
         return abs(self.x)+abs(self.y)
 
-
-cmd = "F1,R1,B2,L1,B3"
+# cmd
+cmd = "F1,R1,B2,L2,B3"
 robot = Solution()
 robot.process(cmd)
 d = robot.distance()
